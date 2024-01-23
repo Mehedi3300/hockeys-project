@@ -30,7 +30,7 @@
 
     </style>
 </head>
-<body>
+<body class="font-manrope">
     <header class="container mx-auto">
 
         <div class="navbar flex justify-around items-center my-12">
@@ -78,28 +78,28 @@
             <div class="carousel w-full relative">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="Images/1.png" class="w-full h-[80%]"/>
-                  <div class="absolute flex gap-5 transform lg:-translate-y-1/2  lg:left-12 left-24  lg:right-5 lg:top-[70%] top-[50%]">
+                  <div class="absolute flex gap-5 transform lg:-translate-y-1/2  lg:left-12 left-36  lg:right-5 lg:top-[70%] top-[50%]">
                     <a href="#slide4" class="btn btn-circle bg-[#131318] text-[#FFF] border-none">❮</a> 
                     <a href="#slide2" class="btn btn-circle bg-[#131318] text-[#FFF] border-none">❯</a>
                   </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
                   <img src="Images/2.png" class="w-full h-[80%]" />
-                  <div class="absolute flex gap-5 transform lg:-translate-y-1/2  lg:left-12 left-24  lg:right-5 lg:top-[70%] top-[50%]">
+                  <div class="absolute flex gap-5 transform lg:-translate-y-1/2  lg:left-12 left-36 lg:right-5 lg:top-[70%] top-[50%]">
                     <a href="#slide1" class="btn btn-circle bg-[#131318] text-[#FFF] border-none">❮</a> 
                     <a href="#slide3" class="btn btn-circle bg-[#131318] text-[#FFF] border-none">❯</a>
                   </div>
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
                   <img src="Images/3.png" class="w-full h-[80%]" />
-                  <div class="absolute flex gap-5 transform lg:-translate-y-1/2  lg:left-12 left-24  lg:right-5 lg:top-[70%] top-[50%]">
+                  <div class="absolute flex gap-5 transform lg:-translate-y-1/2  lg:left-12 left-36  lg:right-5 lg:top-[70%] top-[50%]">
                     <a href="#slide2" class="btn btn-circle bg-[#131318] text-[#FFF] border-none">❮</a> 
                     <a href="#slide4" class="btn btn-circle bg-[#131318] text-[#FFF] border-none">❯</a>
                   </div>
                 </div> 
                 <div id="slide4" class="carousel-item relative w-full">
                   <img src="Images/4.png" class="w-full h-[80%]" />
-                  <div class="absolute flex gap-5 transform lg:-translate-y-1/2  lg:left-12 left-24  lg:right-5 lg:top-[70%] top-[50%]">
+                  <div class="absolute flex gap-5 transform lg:-translate-y-1/2  lg:left-12 left-36 lg:right-5 lg:top-[70%] top-[50%]">
                     <a href="#slide3" class="btn btn-circle bg-[#131318] text-[#FFF] border-none">❮</a> 
                     <a href="#slide1" class="btn btn-circle bg-[#131318] text-[#FFF] border-none">❯</a>
                 </div>
@@ -496,36 +496,38 @@
         </section>
     </main>
     <!-- footer -->
-    <footer class="footer p-10 bg-[#131318] text-[#FFFFFF63]">
-        <aside>
+    <footer class="footer p-10 bg-[#131318] text-[#FFFFFF63] container mx-auto">
+        <aside class="ml-14 lg:ml-0">
            <h2 class="text-[#FFF] font-extrabold text-3xl mt-32 mb-3">Get In Touch</h2> 
           <p class="pb-3">Hockey club Ltd.<br/>Providing reliable tech since 1998</p>
           <div class="flex gap-5">
             <a href=""><i class="fa-solid fa-envelope"></i></a>
             <p>hockeys@support.com</p>
           </div>
-          <div class="flex gap-5 mb-32">
+          <div class="flex gap-5 lg:mb-32">
             <a href=""><i class="fa-solid fa-phone"></i></a>
             <p>(+62) 123-321-543</p>
           </div>
         </aside> 
-        <nav>
-          <header class="footer-title text-[#FFF] font-bold text-lg mt-32">Company</header> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Leadership</a>
-          <a class="link link-hover">Careers</a>
-          <a class="link link-hover">News & Article</a>
-          <a class="link link-hover">Legal Notice</a>
-        </nav> 
-        <nav>
-          <header class="footer-title text-[#FFF] font-bold text-lg mt-32">Support</header> 
-          <a class="link link-hover">Help Center</a>
-          <a class="link link-hover">FAQ</a>
-          <a class="link link-hover">Ticket Support</a>
-          <a class="link link-hover">Contact Us</a>
-        </nav> 
-        <nav>
-          <header class="footer-title text-[#FFF] font-bold text-lg mt-32">Services</header> 
+        <div class="flex lg:gap-60 gap-24">
+          <nav>
+            <header class="footer-title text-[#FFF] font-bold text-lg lg:mt-32">Company</header> 
+            <p class="pb-2 pt-3"><a class="link link-hover">About us</a></p>
+            <p class="pb-2"><a class="link link-hover">Leadership</a></p>
+            <p class="pb-2"><a class="link link-hover">Careers</a></p>
+            <p class="pb-2"><a class="link link-hover">News & Article</a></p>
+            <p><a class="link link-hover">Legal Notice</a></p>
+          </nav> 
+          <nav>
+            <header class="footer-title text-[#FFF] font-bold text-lg lg:mt-32">Support</header> 
+            <p class="pb-2 pt-4"><a class="link link-hover">Help Center</a></p>
+            <p class="pb-2"><a class="link link-hover">FAQ</a></p>
+            <p class="pb-2"><a class="link link-hover">Ticket Support</a></p>
+            <p class="pb-2"><a class="link link-hover">Contact Us</a></p>
+          </nav> 
+        </div>
+        <nav class="ml-24 lg:ml-0 items-center">
+          <header class="footer-title text-[#FFF] font-bold text-lg lg:mt-32">Services</header> 
           <a class="link link-hover">Academy</a>
           <a class="link link-hover">Group Lesson</a>
           <a class="link link-hover">Private Lesson</a>
